@@ -27,11 +27,11 @@ API_HASH = environ.get('API_HASH', '2b79fd2d2c83173807a039325e7e166f')
 if len(API_HASH) == 0:
     print('Error - API_HASH is missing, exiting now')
     exit()
-BOT_TOKEN = environ.get('BOT_TOKEN', '7393027154:AAGBz_NJw9JkTzeHEKOe_9fBnEEsHW6pmkE')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7393027154:AAG2XBbdLZKN50AwGlOlEIAEVYWxmABKnv4')
 if len(BOT_TOKEN) == 0:
     print('Error - BOT_TOKEN is missing, exiting now')
     exit()
-PORT = int(environ.get('PORT', '8068'))
+PORT = int(environ.get('PORT', '8868'))
 
 # Bot pics
 PICS = (environ.get('PICS', 'https://telegra.ph/file/58fef5cb458d5b29b0186.jpg https://telegra.ph/file/f0aa4f433132769f8970c.jpg https://telegra.ph/file/f515fbc2084592eca60a5.jpg https://telegra.ph/file/20dbdcffaa89bd3d09a74.jpg https://telegra.ph/file/6045ba953af4def846238.jpg')).split()
@@ -113,7 +113,7 @@ OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'sampleupi@upi')
 
 # for stream
 IS_STREAM = is_enabled('IS_STREAM', True)
-BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002051680690")
+BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002486369809")
 if len(BIN_CHANNEL) == 0:
     print('Error - BIN_CHANNEL is missing, exiting now')
     exit()
