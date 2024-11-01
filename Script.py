@@ -1,16 +1,19 @@
 class script(object):
 
-    START_TXT = """<b>ʜᴇʏ {}, <i>{}</i>
+    START_TXT = """<b>✨ Hᴇʟʟᴏ  {}, {}
     
-ɪ ᴀᴍ ᴘᴏᴡᴇʀғᴜʟ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴡɪᴛʜ ʟɪɴᴋ sʜᴏʀᴛᴇɴᴇʀ ʙᴏᴛ. ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴀꜱ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴡɪᴛʜ ʟɪɴᴋ sʜᴏʀᴛᴇɴᴇʀ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ... ɪᴛ'ꜱ ᴇᴀꜱʏ ᴛᴏ ᴜꜱᴇ ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴀꜱ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ᴍᴏᴠɪᴇꜱ ᴡɪᴛʜ ʏᴏᴜʀ ʟɪɴᴋ ꜱʜᴏʀᴛᴇɴᴇʀ... ♻️</b>"""
+<blockquote>Mʏ Nᴀᴍᴇ Is <a href=https://t.me/InterWorldMxbot>MoviesX</a>.</blockquote>
 
-    MY_ABOUT_TXT = """★ Server: <a href=https://www.heroku.com>Heroku</a>
-★ Database: <a href=https://www.mongodb.com>MongoDB</a>
-★ Language: <a href=https://www.python.org>Python</a>
-★ Library: <a href=https://pyrogram.org>Pyrogram</a>"""
+I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ !</b>"""
 
-    MY_OWNER_TXT = """★ Name: HA Bots
-★ Username: @HA_Bots
+    MY_ABOUT_TXT = """✯ Dᴇᴠᴇʟᴏᴩᴇʀ: <a herf=https://t.me/itzmecp>Itzmecp</a>
+✯ Cᴏᴅᴇᴅ Oɴ: ᴩʏᴛʜᴏɴ/ᴩʏʀᴏɢʀᴀᴍ
+✯ Mʏ DᴀᴛᴀBᴀꜱᴇ: ᴍᴏɴɢᴏ-ᴅʙ
+✯ Mʏ Sᴇʀᴠᴇʀ: ᴀɴʏᴡʜᴇʀᴇ
+✯ Mʏ Vᴇʀꜱɪᴏɴ: MoviesX ᴠ5.0.1"""
+
+    MY_OWNER_TXT = """★ Name: Itzmecp
+★ Username: @Itzmecp
 ★ Country: Sri Lanka 🇱🇰"""
 
     STATUS_TXT = """🗂 Total Files: <code>{}</code>
@@ -67,21 +70,27 @@ I can't find the <b>{}</b> in my database! 🥲
 
 📝 ɴᴏᴛᴇ:- ʏᴏᴜ sʜᴏᴜʟᴅ ɴᴏᴛ ʙᴇ ᴀɴ ᴀɴᴏɴʏᴍᴏᴜs ᴀᴅᴍɪɴ ɪɴ ɢʀᴏᴜᴘ. sᴇɴᴅ ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜᴏᴜᴛ ʙᴇɪɴɢ ᴀɴ ᴀɴᴏɴʏᴍᴜs ᴀᴅᴍɪɴ.</b>"""
 
-    IMDB_TEMPLATE = """✅ I Found: <code>{query}</code>
+    IMDB_TEMPLATE = """<b>☘️ Tιтle : {title} | {year}
 
-🏷 Title: <a href={url}>{title}</a>
-🎭 Genres: {genres}
-📆 Year: <a href={url}/releaseinfo>{year}</a>
-🌟 Rating: <a href={url}/ratings>{rating} / 10</a>
-☀️ Languages: {languages}
-📀 RunTime: {runtime} Minutes
+📆 Rᴇʟᴇᴀꜱᴇ ➜ {release_date}
+⭐️ Rᴀᴛɪɴɢ ➜ {rating} / 10
+⏰ Rᴜɴᴛɪᴍᴇ ➜ {runtime} minutes
+🌼 Lᴀɴɢᴜᴀɢᴇꜱ ➜ #{languages}
+🎭 Dɪʀᴇᴄᴛᴏʀ ➜ {director}
+🌎 Cᴏᴜɴᴛʀʏ ➜ {countries}
+📕 Gᴇɴʀᴇs ➜ {genres}
 
-🗣 Requested by: {message.from_user.mention}
-©️ Powered by: <b>{message.chat.title}</b>"""
+📖️ Sᴛᴏʀʏ ➜ {plot}
 
-    FILE_CAPTION = """<i>{file_name}</i>
+<blockquote><a herf=https://t.me/InterWorld_Ofc>#InterWorld</a> | <a herf=https://t.me/InterWorldMoviesXbot>@MoviesX</a></blockquote></b>"""
 
-🚫 ᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄʟᴏsᴇ ʙᴜᴛᴛᴏɴ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ sᴇᴇɴ ᴛʜᴇ ᴍᴏᴠɪᴇ 🚫"""
+    FILE_CAPTION = """<b>📓 Fɪʟᴍ Nᴀᴍᴇ :</b> 
+<b><u>{file_name}</u></b>
+
+<b>▫️ Sɪᴢᴇ :</b> <code>{file_size}</code>
+
+<b>🔘 Uᴘʟᴏᴀᴅ Bʏ :
+<blockquote><a herf=https://t.me/InterWorld_Ofc>#InterWorld</a> | <a herf=https://t.me/InterWorldMoviesXbot>@MoviesX</a></blockquote></b>"""
 
     WELCOME_TEXT = """👋 Hello {mention}, Welcome to {title} group! 💞"""
 
