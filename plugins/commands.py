@@ -436,7 +436,7 @@ async def delete_file(bot, message):
         query = message.text.split(" ", 1)[1]
     except:
         return await message.reply_text("Command Incomplete!\nUsage: /delete query")
-    msg = await message.reply_text('Searching...')
+    msg = await message.reply_text('...')
     total, files = await delete_files(query)
     if int(total) == 0:
         return await msg.edit('Not have files in your query')
