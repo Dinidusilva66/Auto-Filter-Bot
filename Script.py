@@ -2,7 +2,7 @@ class script(object):
 
     START_TXT = """<b>✨ Hᴇʟʟᴏ  {}, {}
     
-<blockquote>Mʏ Nᴀᴍᴇ Is <a href=https://t.me/InterWorldMxbot>MoviesX</a>.</blockquote>
+<blockquote>Mʏ Nᴀᴍᴇ Is <a href=https://t.me/InterWorldMxbot>MoviesX</a></blockquote>
 
 I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ !</b>"""
 
@@ -70,19 +70,17 @@ I can't find the <b>{}</b> in my database! 🥲
 
 📝 ɴᴏᴛᴇ:- ʏᴏᴜ sʜᴏᴜʟᴅ ɴᴏᴛ ʙᴇ ᴀɴ ᴀɴᴏɴʏᴍᴏᴜs ᴀᴅᴍɪɴ ɪɴ ɢʀᴏᴜᴘ. sᴇɴᴅ ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜᴏᴜᴛ ʙᴇɪɴɢ ᴀɴ ᴀɴᴏɴʏᴍᴜs ᴀᴅᴍɪɴ.</b>"""
 
-    IMDB_TEMPLATE = """<b>☘️ Tιтle : {title} | {year}
-
-📆 Rᴇʟᴇᴀꜱᴇ ➜ {release_date}
-⭐️ Rᴀᴛɪɴɢ ➜ {rating} / 10
-⏰ Rᴜɴᴛɪᴍᴇ ➜ {runtime} minutes
-🌼 Lᴀɴɢᴜᴀɢᴇꜱ ➜ #{languages}
-🎭 Dɪʀᴇᴄᴛᴏʀ ➜ {director}
-🌎 Cᴏᴜɴᴛʀʏ ➜ {countries}
-📕 Gᴇɴʀᴇs ➜ {genres}
-
-📖️ Sᴛᴏʀʏ ➜ {plot}
-
-<blockquote><a herf=https://t.me/InterWorld_Ofc>#InterWorld</a> | <a herf=https://t.me/InterWorldMoviesXbot>@MoviesX</a></blockquote></b>"""
+    IMDB_TEMPLATE = """<b>☘️ Title: {title} | {year}\n<br><br>
+📆 Release Date ➜ {release_date}<br>
+⭐️ Rating ➜ {rating} / 10<br>
+⏰ Runtime ➜ {runtime} minutes<br>
+🌼 Languages ➜ #{languages}<br>
+🎭 Director ➜ {director}<br>
+🌎 Country ➜ {countries}<br>
+📕 Genres ➜ {genres}<br>\n<br>
+📖️ Story ➜ {plot}<br>\n<br>
+<blockquote><a href="https://t.me/InterWorld_Ofc">#InterWorld</a> | <a href="https://t.me/InterWorldMoviesXbot">@MoviesX</a></blockquote></b>
+"""
 
     FILE_CAPTION = """<b>📓 Fɪʟᴍ Nᴀᴍᴇ :</b> 
 <b><u>{file_name}</u></b>
