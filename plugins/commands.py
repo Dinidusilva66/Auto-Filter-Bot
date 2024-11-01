@@ -46,13 +46,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton("➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ ➕", url=f'http://t.me/{temp.U_NAME}?startgroup=start')
         ],[
-            InlineKeyboardButton('🔎 Inline', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🧑‍💻 Support', url=SUPPORT_LINK)
+            InlineKeyboardButton('⭕ Search', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🔔 Updates', url=UPDATES_LINK)
         ],[
-            InlineKeyboardButton('🌸  Help', callback_data='help'),
+            InlineKeyboardButton('🌸 Help', callback_data='help'),
             InlineKeyboardButton('📚 About', callback_data='about')
-        ],[
-            InlineKeyboardButton('🔔 Updates', url=UPDATES_LINK),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
