@@ -587,12 +587,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ ➕", url=f'http://t.me/{temp.U_NAME}?startgroup=start')
         ],[
             InlineKeyboardButton('🔎 Inline', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🧑‍💻 Support', url=SUPPORT_LINK)
+            InlineKeyboardButton('🔔 Updates', url=UPDATES_LINK)
         ],[
-            InlineKeyboardButton('👨‍🚒 Help', callback_data='help'),
+            InlineKeyboardButton('🌸 Help', callback_data='help'),
             InlineKeyboardButton('📚 About', callback_data='about')
-        ],[
-            InlineKeyboardButton('🔔 Updates', url=UPDATES_LINK),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(

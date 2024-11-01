@@ -49,7 +49,7 @@ async def start(client, message):
             InlineKeyboardButton('🔎 Inline', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🧑‍💻 Support', url=SUPPORT_LINK)
         ],[
-            InlineKeyboardButton('👨‍🚒 Help', callback_data='help'),
+            InlineKeyboardButton('🌸  Help', callback_data='help'),
             InlineKeyboardButton('📚 About', callback_data='about')
         ],[
             InlineKeyboardButton('🔔 Updates', url=UPDATES_LINK),

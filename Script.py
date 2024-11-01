@@ -6,11 +6,11 @@ class script(object):
 
 I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ !</b>"""
 
-    MY_ABOUT_TXT = """✯ Dᴇᴠᴇʟᴏᴩᴇʀ: <a herf=https://t.me/itzmecp>Itzmecp</a>
+    MY_ABOUT_TXT = """<b>✯ Dᴇᴠᴇʟᴏᴩᴇʀ: <a herf=https://t.me/itzmecp>Itzmecp</a> & <a herf=https://t.me/DiniduSilva>Mr Buddy</a>
 ✯ Cᴏᴅᴇᴅ Oɴ: ᴩʏᴛʜᴏɴ/ᴩʏʀᴏɢʀᴀᴍ
 ✯ Mʏ DᴀᴛᴀBᴀꜱᴇ: ᴍᴏɴɢᴏ-ᴅʙ
 ✯ Mʏ Sᴇʀᴠᴇʀ: ᴀɴʏᴡʜᴇʀᴇ
-✯ Mʏ Vᴇʀꜱɪᴏɴ: MoviesX ᴠ5.0.1"""
+✯ Mʏ Vᴇʀꜱɪᴏɴ: MoviesX ᴠ5.0.1</b>"""
 
     MY_OWNER_TXT = """★ Name: Itzmecp
 ★ Username: @Itzmecp
