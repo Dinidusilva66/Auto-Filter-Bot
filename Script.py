@@ -2,7 +2,7 @@ class script(object):
 
     START_TXT = """<b>✨ Hᴇʟʟᴏ  {}, {}
     
-<blockquote>Mʏ Nᴀᴍᴇ Is <a href=https://t.me/InterWorldMxbot>MoviesX</a></blockquote>
+<blockquote>Mʏ Nᴀᴍᴇ Is <a href=https://t.me/Interworldmxbot>MoviesX</a></blockquote>
 
 I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ !</b>"""
 
@@ -12,8 +12,8 @@ I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ
 ✯ Mʏ Sᴇʀᴠᴇʀ: ᴀɴʏᴡʜᴇʀᴇ
 ✯ Mʏ Vᴇʀꜱɪᴏɴ: MoviesX ᴠ5.0.1</b>"""
 
-    MY_OWNER_TXT = """★ Name: Itzmecp
-★ Username: @Itzmecp
+    MY_OWNER_TXT = """★ Name: Itzmecp & Mr.Buddy
+★ Username: @Itzmecp & @DiniduSilva
 ★ Country: Sri Lanka 🇱🇰"""
 
     STATUS_TXT = """🗂 Total Files: <code>{}</code>
